@@ -1,0 +1,12 @@
+# Ignore
+.DS_Store
+
+# DerivedData Folders
+C Programming on the Mac/*/DerivedData
+Cocoa Programming/*/DerivedData
+Objective-C on the Mac/*/DerivedData
+
+# Intermediates Folders
+C Programming on the Mac/*/Build/Intermediates
+Cocoa Programming/*/Build/Intermediates
+Objective-C on the Mac/*/Build/Intermediates
