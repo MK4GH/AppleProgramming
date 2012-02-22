@@ -72,6 +72,5 @@ int main(int argc, const char * argv[]) {
   printf("num3 + num4 is equals to %f\n", num3 + num4);
   
   return 0;
-
 }
 
