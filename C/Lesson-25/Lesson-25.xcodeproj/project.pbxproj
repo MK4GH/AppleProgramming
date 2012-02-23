@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CD93EC14F612C600CD3861 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CD93EB14F612C600CD3861 /* main.c */; };
+		03CD93EE14F612C600CD3861 /* Lesson_25.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03CD93ED14F612C600CD3861 /* Lesson_25.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03CD93E514F612C600CD3861 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				03CD93EE14F612C600CD3861 /* Lesson_25.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03CD93E714F612C600CD3861 /* Lesson-25 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson-25"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CD93EB14F612C600CD3861 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		03CD93ED14F612C600CD3861 /* Lesson_25.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Lesson_25.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CD93E414F612C600CD3861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CD93DC14F612C600CD3861 = {
+			isa = PBXGroup;
+			children = (
+				03CD93EA14F612C600CD3861 /* Lesson-25 */,
+				03CD93E814F612C600CD3861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CD93E814F612C600CD3861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CD93E714F612C600CD3861 /* Lesson-25 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CD93EA14F612C600CD3861 /* Lesson-25 */ = {
+			isa = PBXGroup;
+			children = (
+				03CD93EB14F612C600CD3861 /* main.c */,
+				03CD93ED14F612C600CD3861 /* Lesson_25.1 */,
+			);
+			path = "Lesson-25";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CD93E614F612C600CD3861 /* Lesson-25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CD93F114F612C600CD3861 /* Build configuration list for PBXNativeTarget "Lesson-25" */;
+			buildPhases = (
+				03CD93E314F612C600CD3861 /* Sources */,
+				03CD93E414F612C600CD3861 /* Frameworks */,
+				03CD93E514F612C600CD3861 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson-25";
+			productName = "Lesson-25";
+			productReference = 03CD93E714F612C600CD3861 /* Lesson-25 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CD93DE14F612C600CD3861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "nic-o.com";
+			};
+			buildConfigurationList = 03CD93E114F612C600CD3861 /* Build configuration list for PBXProject "Lesson-25" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03CD93DC14F612C600CD3861;
+			productRefGroup = 03CD93E814F612C600CD3861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CD93E614F612C600CD3861 /* Lesson-25 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CD93E314F612C600CD3861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD93EC14F612C600CD3861 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03CD93EF14F612C600CD3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03CD93F014F612C600CD3861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03CD93F214F612C600CD3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03CD93F314F612C600CD3861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CD93E114F612C600CD3861 /* Build configuration list for PBXProject "Lesson-25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CD93EF14F612C600CD3861 /* Debug */,
+				03CD93F014F612C600CD3861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CD93F114F612C600CD3861 /* Build configuration list for PBXNativeTarget "Lesson-25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CD93F214F612C600CD3861 /* Debug */,
+				03CD93F314F612C600CD3861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CD93DE14F612C600CD3861 /* Project object */;
+}
