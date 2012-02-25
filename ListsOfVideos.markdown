@@ -50,7 +50,7 @@
 
 24. [Lesson 24 - Type sizes](http://youtu.be/yzqcaCXrgj0) released on Jun 12, 2010
 
-25. [Lesson 25 - Math Functions](Jun 16, 2010) released on Jun 16, 2010
+25. [Lesson 25 - Math Functions](http://youtu.be/dU98eC03SiI) released on Jun 16, 2010
 
 26. [Lesson 26 - Global Variables](http://youtu.be/PsvpDWAezdo) released on Jun 17, 2010
 
