@@ -109,3 +109,5 @@
 7. [Lesson 7 - description](http://youtu.be/rhTqEJo4a9w) released on Sep 30, 2010
 
 8. [Lesson 8 - Review of Classes/Objects](http://youtu.be/xj2Z8Ese02o) released on Oct 10, 2010
+
+9. [Lesson 9 - NSArray](http://youtu.be/mBlav2-eiJU) released on Oct 23, 2010
