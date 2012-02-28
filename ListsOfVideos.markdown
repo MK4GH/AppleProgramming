@@ -111,3 +111,127 @@
 8. [Lesson 8 - Review of Classes/Objects](http://youtu.be/xj2Z8Ese02o) released on Oct 10, 2010
 
 9. [Lesson 9 - NSArray](http://youtu.be/mBlav2-eiJU) released on Oct 23, 2010
+
+10. [Lesson 10 - NSDictionary](http://youtu.be/On_6fC9ZFDw) released on Nov 23, 2010
+
+11. [Lesson 11 - Fast Enumeration](http://youtu.be/yzIZMQF6tJw) released on Dec 12, 2010
+
+12. [Lesson 12 - NSMutableString](http://youtu.be/eOR4Dmtq6sY) released on Dec 17, 2010
+
+13. [Lesson 13 - NSMutableArray](http://youtu.be/lfEpT01FMd0) released on Dec 18, 2010
+
+14. [Lesson 14 - Initializers (init)](http://youtu.be/HRgL_wkprf8) released on Jan 6, 2011
+
+15. [Lesson 15 - Convenience Initializers](http://youtu.be/plrjQwomUtI) released on Jan 11, 2011
+
+16. [Lesson 16 - Memory Management](http://youtu.be/7aVIz3qrje4) released on Jan 23, 2011
+
+17. [Lesson 17 - Autorelease](http://youtu.be/WTVlI9yglB0) released on Jan 25, 2011
+
+18. [Lesson 18 - Object Ownership](http://youtu.be/DdAW5OsiIwY) released on Jan 29, 2011
+
+19. [Lesson 19 - @property](http://youtu.be/Y9RnkagvSbM) released on Feb 4, 2011
+
+20. [Lesson 20 - Categories](http://youtu.be/vRAztwsFV6s) released on Feb 11, 2011
+
+21. [Lesson 21 - Dot Syntax](http://youtu.be/wi_ZO_esm60) released on Feb 15, 2011
+
+22. [Lesson 22 - NSNumber](http://youtu.be/_uFfopVNrMc) released on Mar 7, 2011
+
+23. [Lesson 23 - Selectors](http://youtu.be/3EyoOVH1-Xc) released on Apr 9, 2011
+
+24. [Lesson 24 - Protocols](http://youtu.be/AapOv7g95FE) released on Apr 21, 2011
+
+25. [Lesson 25 - id with Protocols](http://youtu.be/lw5KgyxKnuQ) released on May 16, 2011
+
+26. [Lesson 26 - Key-Value Coding](http://youtu.be/wkGMb5jbz7E) released on May 25, 2011
+
+27. [Lesson 27 - KVC Key Paths](http://youtu.be/SDNBtv-WW20) released on May 30, 2011
+
+28. [Lesson 28 - Key-Value Observing](http://youtu.be/n6Fu15G_XmU) released on Jun 2, 2011
+
+29. [Lesson 29 - Writing to a File](http://youtu.be/G3nCG1JsMsk) released on Jun 23, 2011
+
+30. [Lesson 30 - Property Lists](http://youtu.be/Zoh-SO5YipA) released on Jul 3, 2011
+
+31. [Lesson 31 - NSData](http://youtu.be/WYu2gbmnFzk) released on Jul 20, 2011
+
+32. [Lesson 32 - NSCoding](http://youtu.be/OhkYZYO8J70) released on Jul 27, 2011
+
+33. [Lesson 33 - Blocks](http://youtu.be/VStnov7Pc3w) released on Sep 19, 2011
+
+34. [Lesson 34 - Block Parameters](http://youtu.be/1wjgcQGSx3U) released on Sep 20, 2011
+
+35. [Lesson 35 - ARC Intro](http://youtu.be/CgmYUWxqYIs) released on Jan 29, 2012
+
+36. [Lesson 36 - ARC Properties](http://youtu.be/gV60NSK1Eig) released on Feb 5, 2012
+
+37. [Lesson 37 - Class Extensions](http://youtu.be/vid8VDI4lZM) released on Feb 10, 2012
+
+# Cocoa Programming
+
+## List of all the videos:
+
+1. [Lesson 1 - Getting Started](http://youtu.be/X_MJd8wqTBM) released on Mar 10, 2011
+
+2. [Lesson 2 - Application Overview](http://youtu.be/7vy7pEpEYvk) released on Mar 11, 2011
+
+3. [Lesson 3 - Building an Interface](http://youtu.be/GLxTuluYdZg) released on Mar 13, 2011
+
+4. [Lesson 4 - Making Connections](http://youtu.be/CgrDSW0dHy4) released on Mar 15, 2011
+
+5. [Lesson 5 - awakeFromNib](http://youtu.be/w3t5AFnpdX8) released on Mar 28, 2011
+
+6. [Lesson 6 - Size Attributes](http://youtu.be/6RTdxxRqrqM) released on Apr 1, 2011
+
+7. [Lesson 7 - NSDatePicker](http://youtu.be/_p1uYXBQwdM) released on Apr 5, 2011
+
+8. [Lesson 8 - NSSlider](http://youtu.be/uv5omwYXhBI) released on Apr 16, 2011
+
+9. [Lesson 9 - NSPopUpButton](http://youtu.be/RKYSY2Ey9Os) released on May 1, 2011
+
+10. [Lesson 10 - NSImageView](http://youtu.be/OlXyu4uLyoY) released on May 6, 2011
+
+11. [Lesson 11 - App Icon](http://youtu.be/kK085XnpHJI) released on May 11, 2011
+
+12. [Lesson 12 - Sharing Apps](http://youtu.be/B0wEDUbGfvE) released on Jun 4, 2011
+
+13. [Lesson 13 - NSTableView Intro](http://youtu.be/_Qbjwx0hB6A) released on Jun 10, 2011
+
+14. [Lesson 14 - NSTableView adding objects](http://youtu.be/p5U94-uRCOo) released on Jun 11, 2011
+
+15. [Lesson 15 - NSTableView editing values](http://youtu.be/8Pm1CfmQxfE) released on Jun 14, 2011
+
+16. [Lesson 16 - Menu Items](http://youtu.be/hF-sRs1_2-0) released on Jun 18, 2011
+
+17. [Lesson 17 - NSToolbar](http://youtu.be/i021PhLS54E) released on Jul 9, 2011
+
+18. [Lesson 18 - Multiple Windows](http://youtu.be/Z1Erw7aP0EQ) released on Aug 3, 2011
+
+19. [Lesson 19 - Cocoa Bindings](http://youtu.be/ESk6YLDtGR8) released on Aug 31, 2011
+
+20. [Lesson 20 - NSTableView Bindings](http://youtu.be/LJ6gP3HxVc8) released on Oct 1, 2011
+
+21. [Lesson 21 - Reference Counting](http://youtu.be/rVxd50DKO4E) released on Oct 13, 2011
+
+22. [Lesson 22 - Saving Documents](http://youtu.be/yfiOGQmUVjE) released on Oct 22, 2011
+
+23. [Lesson 23 - Auto Layout](http://youtu.be/mhvKKBha0fw) released on Nov 2, 2011
+
+24. [Lesson 24 - Drag and Drop (Part 1/3)](http://youtu.be/73oeuEgoBL4) released on Dec 4, 2011
+
+25. [Lesson 25 - Drag and Drop (Part 2/3)](http://youtu.be/UZ0mp3-JuzY) released on Dec 5, 2011
+
+26. [Lesson 26 - Drag and Drop (Part 3/3)](http://youtu.be/p4w5VbQ-gEI) released on Dec 11, 2011
+
+27. [Lesson 27 - Mouse Events](http://youtu.be/Q-2W5o_znLU) released on Dec 31, 2011
+
+28. [Lesson 28 - Keyboard Events](http://youtu.be/VSngbd26dBw) released on Jan 7, 2012
+
+29. [Lesson 29 - Core Data 1](http://youtu.be/CcsLsmLNj3c) released on Jan 20, 2012
+
+30. [Lesson 30 - Core Data 2](http://youtu.be/9Du_6By97sM) released on Jan 21, 2012
+
+31. [Lesson 31 - NSPopover](http://youtu.be/P6HX0K7ulSY) released on Feb 13, 2012
+
+32. [Lesson 32 - Status Bar App](http://youtu.be/PMmjfCYNqW0) released on Feb 16, 2012

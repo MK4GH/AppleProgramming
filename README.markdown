@@ -18,4 +18,4 @@ There are 3 Channels:
 
 2. Objective-C on the Mac: http://www.youtube.com/user/AppleProgramming#grid/user/38860A77CF9B4923
 
-3. Cocoa Programming: http://www.youtube.com/user/AppleProgramming#grid/user/38860A77CF9B4923
+3. Cocoa Programming: http://www.youtube.com/user/AppleProgramming#grid/user/E83F832121568D36
