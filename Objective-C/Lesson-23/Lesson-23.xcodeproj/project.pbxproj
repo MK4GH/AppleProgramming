@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EDA4BB1502421300D94D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EDA4BA1502421300D94D17 /* Foundation.framework */; };
+		03EDA4BE1502421300D94D17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EDA4BD1502421300D94D17 /* main.m */; };
+		03EDA4C21502421300D94D17 /* Lesson_23.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03EDA4C11502421300D94D17 /* Lesson_23.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03EDA4B41502421300D94D17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				03EDA4C21502421300D94D17 /* Lesson_23.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03EDA4B61502421300D94D17 /* Lesson-23 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson-23"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EDA4BA1502421300D94D17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EDA4BD1502421300D94D17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EDA4C01502421300D94D17 /* Lesson-23-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lesson-23-Prefix.pch"; sourceTree = "<group>"; };
+		03EDA4C11502421300D94D17 /* Lesson_23.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Lesson_23.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EDA4B31502421300D94D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDA4BB1502421300D94D17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EDA4AB1502421300D94D17 = {
+			isa = PBXGroup;
+			children = (
+				03EDA4BC1502421300D94D17 /* Lesson-23 */,
+				03EDA4B91502421300D94D17 /* Frameworks */,
+				03EDA4B71502421300D94D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EDA4B71502421300D94D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA4B61502421300D94D17 /* Lesson-23 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EDA4B91502421300D94D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA4BA1502421300D94D17 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03EDA4BC1502421300D94D17 /* Lesson-23 */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA4BD1502421300D94D17 /* main.m */,
+				03EDA4C11502421300D94D17 /* Lesson_23.1 */,
+				03EDA4BF1502421300D94D17 /* Supporting Files */,
+			);
+			path = "Lesson-23";
+			sourceTree = "<group>";
+		};
+		03EDA4BF1502421300D94D17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA4C01502421300D94D17 /* Lesson-23-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EDA4B51502421300D94D17 /* Lesson-23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EDA4C51502421300D94D17 /* Build configuration list for PBXNativeTarget "Lesson-23" */;
+			buildPhases = (
+				03EDA4B21502421300D94D17 /* Sources */,
+				03EDA4B31502421300D94D17 /* Frameworks */,
+				03EDA4B41502421300D94D17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson-23";
+			productName = "Lesson-23";
+			productReference = 03EDA4B61502421300D94D17 /* Lesson-23 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EDA4AD1502421300D94D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "nic-o.com";
+			};
+			buildConfigurationList = 03EDA4B01502421300D94D17 /* Build configuration list for PBXProject "Lesson-23" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03EDA4AB1502421300D94D17;
+			productRefGroup = 03EDA4B71502421300D94D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EDA4B51502421300D94D17 /* Lesson-23 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EDA4B21502421300D94D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDA4BE1502421300D94D17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03EDA4C31502421300D94D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03EDA4C41502421300D94D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03EDA4C61502421300D94D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lesson-23/Lesson-23-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03EDA4C71502421300D94D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lesson-23/Lesson-23-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EDA4B01502421300D94D17 /* Build configuration list for PBXProject "Lesson-23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDA4C31502421300D94D17 /* Debug */,
+				03EDA4C41502421300D94D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EDA4C51502421300D94D17 /* Build configuration list for PBXNativeTarget "Lesson-23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDA4C61502421300D94D17 /* Debug */,
+				03EDA4C71502421300D94D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EDA4AD1502421300D94D17 /* Project object */;
+}
