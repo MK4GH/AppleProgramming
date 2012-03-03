@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EDA50015024CEE00D94D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EDA4FF15024CEE00D94D17 /* Foundation.framework */; };
+		03EDA50315024CEE00D94D17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EDA50215024CEE00D94D17 /* main.m */; };
+		03EDA50715024CEE00D94D17 /* Lesson_25.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03EDA50615024CEE00D94D17 /* Lesson_25.1 */; };
+		03EDA51315024DB300D94D17 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EDA51215024DB300D94D17 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03EDA4F915024CEE00D94D17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				03EDA50715024CEE00D94D17 /* Lesson_25.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03EDA4FB15024CEE00D94D17 /* Lesson-25 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson-25"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EDA4FF15024CEE00D94D17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EDA50215024CEE00D94D17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EDA50515024CEE00D94D17 /* Lesson-25-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lesson-25-Prefix.pch"; sourceTree = "<group>"; };
+		03EDA50615024CEE00D94D17 /* Lesson_25.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Lesson_25.1; sourceTree = "<group>"; };
+		03EDA51015024D4600D94D17 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		03EDA51115024DB300D94D17 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		03EDA51215024DB300D94D17 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EDA4F815024CEE00D94D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDA50015024CEE00D94D17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EDA4F015024CEE00D94D17 = {
+			isa = PBXGroup;
+			children = (
+				03EDA50115024CEE00D94D17 /* Lesson-25 */,
+				03EDA4FE15024CEE00D94D17 /* Frameworks */,
+				03EDA4FC15024CEE00D94D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EDA4FC15024CEE00D94D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA4FB15024CEE00D94D17 /* Lesson-25 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EDA4FE15024CEE00D94D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA4FF15024CEE00D94D17 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03EDA50115024CEE00D94D17 /* Lesson-25 */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA50215024CEE00D94D17 /* main.m */,
+				03EDA51115024DB300D94D17 /* Person.h */,
+				03EDA51215024DB300D94D17 /* Person.m */,
+				03EDA51015024D4600D94D17 /* Logging.h */,
+				03EDA50615024CEE00D94D17 /* Lesson_25.1 */,
+				03EDA50415024CEE00D94D17 /* Supporting Files */,
+			);
+			path = "Lesson-25";
+			sourceTree = "<group>";
+		};
+		03EDA50415024CEE00D94D17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EDA50515024CEE00D94D17 /* Lesson-25-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EDA4FA15024CEE00D94D17 /* Lesson-25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EDA50A15024CEE00D94D17 /* Build configuration list for PBXNativeTarget "Lesson-25" */;
+			buildPhases = (
+				03EDA4F715024CEE00D94D17 /* Sources */,
+				03EDA4F815024CEE00D94D17 /* Frameworks */,
+				03EDA4F915024CEE00D94D17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson-25";
+			productName = "Lesson-25";
+			productReference = 03EDA4FB15024CEE00D94D17 /* Lesson-25 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EDA4F215024CEE00D94D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "nic-o.com";
+			};
+			buildConfigurationList = 03EDA4F515024CEE00D94D17 /* Build configuration list for PBXProject "Lesson-25" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03EDA4F015024CEE00D94D17;
+			productRefGroup = 03EDA4FC15024CEE00D94D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EDA4FA15024CEE00D94D17 /* Lesson-25 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EDA4F715024CEE00D94D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDA50315024CEE00D94D17 /* main.m in Sources */,
+				03EDA51315024DB300D94D17 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03EDA50815024CEE00D94D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03EDA50915024CEE00D94D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03EDA50B15024CEE00D94D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lesson-25/Lesson-25-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03EDA50C15024CEE00D94D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lesson-25/Lesson-25-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EDA4F515024CEE00D94D17 /* Build configuration list for PBXProject "Lesson-25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDA50815024CEE00D94D17 /* Debug */,
+				03EDA50915024CEE00D94D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EDA50A15024CEE00D94D17 /* Build configuration list for PBXNativeTarget "Lesson-25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDA50B15024CEE00D94D17 /* Debug */,
+				03EDA50C15024CEE00D94D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EDA4F215024CEE00D94D17 /* Project object */;
+}
