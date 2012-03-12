@@ -235,3 +235,5 @@
 31. [Lesson 31 - NSPopover](http://youtu.be/P6HX0K7ulSY) released on Feb 13, 2012
 
 32. [Lesson 32 - Status Bar App](http://youtu.be/PMmjfCYNqW0) released on Feb 16, 2012
+
+33. [Lesson 33 - Alert Sheet](http://youtu.be/mRUGcJO6x6A) released on Mar 8, 2012
