@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B8B9F5150E5C6F00DDEF04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B8B9F4150E5C6F00DDEF04 /* Cocoa.framework */; };
+		03B8B9FF150E5C6F00DDEF04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B8B9FD150E5C6F00DDEF04 /* InfoPlist.strings */; };
+		03B8BA01150E5C6F00DDEF04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8BA00150E5C6F00DDEF04 /* main.m */; };
+		03B8BA05150E5C6F00DDEF04 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03B8BA03150E5C6F00DDEF04 /* Credits.rtf */; };
+		03B8BA08150E5C6F00DDEF04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8BA07150E5C6F00DDEF04 /* AppDelegate.m */; };
+		03B8BA0B150E5C6F00DDEF04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B8BA09150E5C6F00DDEF04 /* MainMenu.xib */; };
+		03B8BA13150E5C8100DDEF04 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8BA12150E5C8100DDEF04 /* Person.m */; };
+		03B8BA16150E5D7900DDEF04 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B8BA15150E5D7900DDEF04 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B8B9F0150E5C6F00DDEF04 /* Lesson-15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson-15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B8B9F4150E5C6F00DDEF04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03B8B9F7150E5C6F00DDEF04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03B8B9F8150E5C6F00DDEF04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03B8B9F9150E5C6F00DDEF04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03B8B9FC150E5C6F00DDEF04 /* Lesson-15-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson-15-Info.plist"; sourceTree = "<group>"; };
+		03B8B9FE150E5C6F00DDEF04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03B8BA00150E5C6F00DDEF04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03B8BA02150E5C6F00DDEF04 /* Lesson-15-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lesson-15-Prefix.pch"; sourceTree = "<group>"; };
+		03B8BA04150E5C6F00DDEF04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03B8BA06150E5C6F00DDEF04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03B8BA07150E5C6F00DDEF04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03B8BA0A150E5C6F00DDEF04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03B8BA11150E5C8100DDEF04 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		03B8BA12150E5C8100DDEF04 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		03B8BA14150E5D7900DDEF04 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		03B8BA15150E5D7900DDEF04 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B8B9ED150E5C6F00DDEF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8B9F5150E5C6F00DDEF04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B8B9E5150E5C6F00DDEF04 = {
+			isa = PBXGroup;
+			children = (
+				03B8B9FA150E5C6F00DDEF04 /* Lesson-15 */,
+				03B8B9F3150E5C6F00DDEF04 /* Frameworks */,
+				03B8B9F1150E5C6F00DDEF04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B8B9F1150E5C6F00DDEF04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B8B9F0150E5C6F00DDEF04 /* Lesson-15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B8B9F3150E5C6F00DDEF04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B8B9F4150E5C6F00DDEF04 /* Cocoa.framework */,
+				03B8B9F6150E5C6F00DDEF04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B8B9F6150E5C6F00DDEF04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B8B9F7150E5C6F00DDEF04 /* AppKit.framework */,
+				03B8B9F8150E5C6F00DDEF04 /* CoreData.framework */,
+				03B8B9F9150E5C6F00DDEF04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03B8B9FA150E5C6F00DDEF04 /* Lesson-15 */ = {
+			isa = PBXGroup;
+			children = (
+				03B8BA06150E5C6F00DDEF04 /* AppDelegate.h */,
+				03B8BA07150E5C6F00DDEF04 /* AppDelegate.m */,
+				03B8BA09150E5C6F00DDEF04 /* MainMenu.xib */,
+				03B8BA11150E5C8100DDEF04 /* Person.h */,
+				03B8BA12150E5C8100DDEF04 /* Person.m */,
+				03B8BA14150E5D7900DDEF04 /* TableViewController.h */,
+				03B8BA15150E5D7900DDEF04 /* TableViewController.m */,
+				03B8B9FB150E5C6F00DDEF04 /* Supporting Files */,
+			);
+			path = "Lesson-15";
+			sourceTree = "<group>";
+		};
+		03B8B9FB150E5C6F00DDEF04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B8B9FC150E5C6F00DDEF04 /* Lesson-15-Info.plist */,
+				03B8B9FD150E5C6F00DDEF04 /* InfoPlist.strings */,
+				03B8BA00150E5C6F00DDEF04 /* main.m */,
+				03B8BA02150E5C6F00DDEF04 /* Lesson-15-Prefix.pch */,
+				03B8BA03150E5C6F00DDEF04 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B8B9EF150E5C6F00DDEF04 /* Lesson-15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8BA0E150E5C6F00DDEF04 /* Build configuration list for PBXNativeTarget "Lesson-15" */;
+			buildPhases = (
+				03B8B9EC150E5C6F00DDEF04 /* Sources */,
+				03B8B9ED150E5C6F00DDEF04 /* Frameworks */,
+				03B8B9EE150E5C6F00DDEF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson-15";
+			productName = "Lesson-15";
+			productReference = 03B8B9F0150E5C6F00DDEF04 /* Lesson-15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B8B9E7150E5C6F00DDEF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "nic-o.com";
+			};
+			buildConfigurationList = 03B8B9EA150E5C6F00DDEF04 /* Build configuration list for PBXProject "Lesson-15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03B8B9E5150E5C6F00DDEF04;
+			productRefGroup = 03B8B9F1150E5C6F00DDEF04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B8B9EF150E5C6F00DDEF04 /* Lesson-15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B8B9EE150E5C6F00DDEF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8B9FF150E5C6F00DDEF04 /* InfoPlist.strings in Resources */,
+				03B8BA05150E5C6F00DDEF04 /* Credits.rtf in Resources */,
+				03B8BA0B150E5C6F00DDEF04 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B8B9EC150E5C6F00DDEF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8BA01150E5C6F00DDEF04 /* main.m in Sources */,
+				03B8BA08150E5C6F00DDEF04 /* AppDelegate.m in Sources */,
+				03B8BA13150E5C8100DDEF04 /* Person.m in Sources */,
+				03B8BA16150E5D7900DDEF04 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03B8B9FD150E5C6F00DDEF04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8B9FE150E5C6F00DDEF04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03B8BA03150E5C6F00DDEF04 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8BA04150E5C6F00DDEF04 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03B8BA09150E5C6F00DDEF04 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8BA0A150E5C6F00DDEF04 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B8BA0C150E5C6F00DDEF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03B8BA0D150E5C6F00DDEF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03B8BA0F150E5C6F00DDEF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lesson-15/Lesson-15-Prefix.pch";
+				INFOPLIST_FILE = "Lesson-15/Lesson-15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03B8BA10150E5C6F00DDEF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lesson-15/Lesson-15-Prefix.pch";
+				INFOPLIST_FILE = "Lesson-15/Lesson-15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B8B9EA150E5C6F00DDEF04 /* Build configuration list for PBXProject "Lesson-15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8BA0C150E5C6F00DDEF04 /* Debug */,
+				03B8BA0D150E5C6F00DDEF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B8BA0E150E5C6F00DDEF04 /* Build configuration list for PBXNativeTarget "Lesson-15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8BA0F150E5C6F00DDEF04 /* Debug */,
+				03B8BA10150E5C6F00DDEF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B8B9E7150E5C6F00DDEF04 /* Project object */;
+}
